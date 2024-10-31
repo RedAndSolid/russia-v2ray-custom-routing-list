@@ -1,4 +1,17 @@
 [
+ {
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "IP": [
+          "https://2ip.ru"
+        ],
+        "outboundTag": "proxy"
+      }
+    ]
+  }
+}
   {
     "outboundTag":"direct",
     "protocol":[
